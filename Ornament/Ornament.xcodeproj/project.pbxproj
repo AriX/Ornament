@@ -10,10 +10,6 @@
 		172E830D177F5C4800D25532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E830C177F5C4800D25532 /* Foundation.framework */; };
 		172E830F177F5C4800D25532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E830E177F5C4800D25532 /* CoreGraphics.framework */; };
 		172E8311177F5C4800D25532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E8310177F5C4800D25532 /* UIKit.framework */; };
-		172E8327177F5C4900D25532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E830C177F5C4800D25532 /* Foundation.framework */; };
-		172E8328177F5C4900D25532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172E8310177F5C4800D25532 /* UIKit.framework */; };
-		172E8330177F5C4900D25532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 172E832E177F5C4900D25532 /* InfoPlist.strings */; };
-		172E8332177F5C4900D25532 /* OrnamentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 172E8331177F5C4900D25532 /* OrnamentTests.m */; };
 		2F259CE4A2964631A8271726 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6971354147143AFBDEEB707 /* libPods.a */; };
 		45161F8018BAAC2A00494C35 /* ORNCapsuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45161F7F18BAAC2A00494C35 /* ORNCapsuleView.m */; };
 		4578EC7D18665BB60053BF8E /* UIImage+ORNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4578EC7C18665BB60053BF8E /* UIImage+ORNAdditions.m */; };
@@ -88,22 +84,11 @@
 		45F740E01854391200478D29 /* ORNShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F740D81854391200478D29 /* ORNShadowLayer.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		172E8329177F5C4900D25532 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 172E8301177F5C4700D25532 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 172E8308177F5C4700D25532;
-			remoteInfo = Ornament;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		172E8309177F5C4800D25532 /* Ornament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ornament.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		172E830C177F5C4800D25532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		172E830E177F5C4800D25532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		172E8310177F5C4800D25532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		172E8324177F5C4900D25532 /* OrnamentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrnamentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		172E832D177F5C4900D25532 /* OrnamentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrnamentTests-Info.plist"; sourceTree = "<group>"; };
 		172E832F177F5C4900D25532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		172E8331177F5C4900D25532 /* OrnamentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrnamentTests.m; sourceTree = "<group>"; };
@@ -231,15 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		172E8321177F5C4900D25532 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172E8328177F5C4900D25532 /* UIKit.framework in Frameworks */,
-				172E8327177F5C4900D25532 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -260,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				172E8309177F5C4800D25532 /* Ornament.app */,
-				172E8324177F5C4900D25532 /* OrnamentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -533,24 +508,6 @@
 			productReference = 172E8309177F5C4800D25532 /* Ornament.app */;
 			productType = "com.apple.product-type.application";
 		};
-		172E8323177F5C4900D25532 /* OrnamentTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 172E8338177F5C4900D25532 /* Build configuration list for PBXNativeTarget "OrnamentTests" */;
-			buildPhases = (
-				172E8320177F5C4900D25532 /* Sources */,
-				172E8321177F5C4900D25532 /* Frameworks */,
-				172E8322177F5C4900D25532 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				172E832A177F5C4900D25532 /* PBXTargetDependency */,
-			);
-			name = OrnamentTests;
-			productName = OrnamentTests;
-			productReference = 172E8324177F5C4900D25532 /* OrnamentTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -582,7 +539,6 @@
 			projectRoot = "";
 			targets = (
 				172E8308177F5C4700D25532 /* Ornament */,
-				172E8323177F5C4900D25532 /* OrnamentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -632,14 +588,6 @@
 				458DE037186A1CBD00859047 /* bg_switch_thumb.png in Resources */,
 				4578EC8C18665EB10053BF8E /* bg_bar_button_black_pressed.png in Resources */,
 				45F740871854302F00478D29 /* icn_checkmark@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		172E8322177F5C4900D25532 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172E8330177F5C4900D25532 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,23 +664,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		172E8320177F5C4900D25532 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172E8332177F5C4900D25532 /* OrnamentTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		172E832A177F5C4900D25532 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 172E8308177F5C4700D25532 /* Ornament */;
-			targetProxy = 172E8329177F5C4900D25532 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		172E832E177F5C4900D25532 /* InfoPlist.strings */ = {
@@ -855,46 +787,6 @@
 			};
 			name = Release;
 		};
-		172E8339177F5C4900D25532 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ornament.app/Ornament";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "OrnamentTests/OrnamentTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		172E833A177F5C4900D25532 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ornament.app/Ornament";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
-				INFOPLIST_FILE = "OrnamentTests/OrnamentTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -912,15 +804,6 @@
 			buildConfigurations = (
 				172E8336177F5C4900D25532 /* Debug */,
 				172E8337177F5C4900D25532 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		172E8338177F5C4900D25532 /* Build configuration list for PBXNativeTarget "OrnamentTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				172E8339177F5C4900D25532 /* Debug */,
-				172E833A177F5C4900D25532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
