@@ -84,7 +84,7 @@ static NSMutableDictionary *footers;
     insets.bottom = _tableViewSectionInsets.bottom - _tableViewInsets.bottom;
 
     if ([UIDevice orn_isIOS7]) {
-        CGFloat statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+        CGFloat statusBarHeight = 20.0f;
         insets.top += statusBarHeight;
     }
 

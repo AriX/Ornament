@@ -165,7 +165,7 @@
     self.navigationBarStyle = _navigationBarStyle;
 
     if ([UIDevice orn_isIOS7]) {
-        CGFloat statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+        CGFloat statusBarHeight = 20.0f;
         for (NSLayoutConstraint *constraint in self.view.constraints) {
             if (constraint.firstAttribute == NSLayoutAttributeTop) {
                 constraint.constant += statusBarHeight;
